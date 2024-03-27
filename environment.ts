@@ -481,7 +481,7 @@ namespace Environment {
             0,
             Reference_VOLTAGE
         );
-        windspeed = voltage / 40;
+        windspeed = voltage / 50;
         return Math.round(windspeed)
     }
 
